@@ -1,0 +1,255 @@
+/* start frame work */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+ width: 1200px;
+ margin: auto;
+}
+.uper{
+    text-transform: uppercase;
+}
+h2 {
+ font-size: 72px;
+    color: #ec7a5c;
+    font-family:Abril Fatface ;
+    font-weight:400 ;
+    font-style:normal;
+    text-align: center;
+}
+h3{
+    font-size: 35px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    
+}
+h4 {
+    font-size: 35px;
+    color: darkgray;
+    padding: 30px 0 30px 0px;
+    font-family: cursive;
+    text-align: center;
+        
+}
+p{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #888484;
+     text-align: center;
+    padding-top: 5px;
+}
+/* End frame work */
+/* start header */
+header{
+    background-image: url('../images/green-field-hd-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-top: 35px;
+}
+h1{
+    padding-top: 27px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+button {
+    background-image: linear-gradient(to right top,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    border: 1px solid #eff;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    transition: 1s all ease-in-out;
+    border-radius: 20%;
+    visibility: visible;
+    animation-name: fadeInRightBig;
+     text-transform: uppercase;
+}
+button:hover{
+    border-radius: 0%;
+    opacity: 1;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+/* End header */
+/* start how work */
+.how-work{
+    padding: 45px;
+    border-bottom: 1px solid  gainsboro;
+}
+/* End how work */
+/* start one, two, third slides */
+.image{
+    float: left;
+    margin-top: 30px;
+}
+.image img {
+    width: 100%;
+}
+#nature{
+    width: 35%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#nature h3{
+    text-align: unset;
+}
+#nature p{
+    text-align: unset;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#nature h2{
+    text-align: left;
+}
+#nature h4{
+    text-align: left;
+        
+}
+.sub button{
+    color: white;
+    background-color: #ec7a5c;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+.sub button a {
+    text-decoration: npne;
+}
+
+.image1{
+    float: right;
+    margin-top: 30px;
+}
+.image1 img {
+    width: 100%;
+}
+#nature1{
+    width: 35%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+#nature1 h3{
+    text-align: unset;
+}
+#nature1 p{
+    text-align: unset;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#nature1 h2{
+    font-size: 72px;
+    color: #ec7a5c;
+    text-align: left;
+    font-family:Abril Fatface ;
+    font-weight:400 ;
+    font-style:normal;
+}
+#nature1 h4{
+    font-size: 40px;
+    color: darkgray;
+    text-align: left;
+    padding: 30px 0 30px 0px;
+    font-family: cursive;
+        
+}
+.sub1 button{
+    color: white;
+    background-color: #ec7a5c;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+.sub1 button a {
+    text-decoration: npne;
+}
+.one, .two, .third {
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+/* End one, two, third slides */
+.explore p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.features {
+    padding: 70px 0px;
+    overflow:hidden;
+    text-align: center;
+}
+.features .box {
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+.features .box :last-child {
+    margin-right: 0%
+}
+.features .box i {
+    color: #f7600e;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px
+}
+.features .box h3{
+    text-transform: uppercase;
+    font-weight: normai;
+    color:black;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.features .box p {
+    line-height: 1.9;
+    color: #505050;
+}
+.photo {
+    text-align: center;
+}
+.try{
+    color: white;
+    background-color: #ec7a5c;
+    text-align: center;
+    padding: 15px;
+    font-family: monospace;
+    overflow: inherit;
+    margin-top: -5px;
+}
+.try button:hover{
+    background-color: white;
+}
+.try button a:hover{
+     color: #ec7a5c
+}
+.try h4 {
+    color: white;
+}
+footer {
+    background-color: gainsboro;
+    height: 100px;
+    text-align: center;
+}
+footer i {
+    padding: 30px;
+    color: darkslategray
+}
